@@ -1,0 +1,42 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(19, 52, 69);
+    color:rgb(236, 190, 154);
+    font-family: "Goudy Old Style";
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 32%;
+    align-items: center;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: skyblue;
+}
+
+h2, p {
+    position: relative;
+    display: block;
+}

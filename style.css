@@ -19,24 +19,35 @@ body {
 }
 
 header {
+    margin: auto;
     text-align: center;
-    align-items: center;
+    align-content: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 main {
-    width: 32%;
-    align-items: center;
+    width: 800px;
+    margin: auto;
+    align-content: center;
     text-align: left;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
     background-color: skyblue;
+}
+
+article {
+    margin: auto;
+    color: black;
+    font-family: Calisto MT;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 h2, p {
     position: relative;
-    display: block;
+    align-content: center;
 }

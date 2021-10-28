@@ -14,8 +14,8 @@ body {
     font-family: "Goudy Old Style";
     display: block;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    align-content: center;
 }
 
 header {
@@ -29,25 +29,25 @@ header {
 
 main {
     width: 800px;
-    margin: auto;
+    margin: 0 auto;
     align-content: center;
-    text-align: left;
+    text-align: justify;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
     background-color: skyblue;
 }
 
 article {
-    margin: auto;
     color: black;
     font-family: Calisto MT;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin: 3px auto;
 }
 
 h2, p {
-    position: relative;
-    align-content: center;
+    margin: 3px auto;    
+}
+
+img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
